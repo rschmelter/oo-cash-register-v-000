@@ -20,7 +20,7 @@ class CashRegister
       discount_percent = @discount/100.to_f
       discount_in_dollars = @total * discount_percent
       @total = @total - discount_in_dollars
-      "After the discount, the total comes to #{@total.to_i}."
+      "After the discount, the total comes to $#{@total.to_i}."
     end
 
 
