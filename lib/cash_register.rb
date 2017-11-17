@@ -15,7 +15,7 @@ class CashRegister
       @total += price
     end
   end
-  
+
     def apply_discount
       discount_percent = @discount/100.to_f
       discount_in_dollars = @total * discount_percent
@@ -23,7 +23,7 @@ class CashRegister
     end
 
 
-  
+
 
 
 
