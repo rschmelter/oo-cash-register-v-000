@@ -20,7 +20,7 @@ class CashRegister
       discount_in_dollars = @total * discount_percent
       @total += @total - discount_in_dollars
       @total
-      
+
 
     end
 
