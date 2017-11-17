@@ -29,9 +29,9 @@ class CashRegister
       end
     end
 
-    def items 
-      items_array = []
-      
+    def items
+      @items_array
+
     end
 
 
