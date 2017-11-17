@@ -38,9 +38,8 @@ class CashRegister
     def void_last_transaction
       remove_item = @price.pop
       @total -= remove_item
-
+# why doesn't simply subtracting the price work? Why do I have to update with -=?
     end
-
 
 
 
